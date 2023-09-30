@@ -17,4 +17,4 @@ Analisa os últimos dez concurso da lotofácil e elimina as cinco dezenas menos 
 - > Utiliza aprendizagem de máquina para encontrar padrões[no]
 
 ## Execução
-<isaias>
+>isaias<
