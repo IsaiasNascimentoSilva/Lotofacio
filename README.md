@@ -11,7 +11,7 @@ Analisa os últimos dez concurso da lotofácil e elimina as cinco dezenas menos 
 
 ## Implementações
 - [x] Seleciona os cincos números menos sorteados
-- [ ] Elimina os dez numeros menos sorteados
+- [x] Elimina os dez numeros menos sorteados
 - [ ] Gera os possíveis jogos com base nos dados
 - [ ] Utiliza cálculos matemáticos(probabilidade) para melhorar os resultados
 - [ ] Usar interface gráfica

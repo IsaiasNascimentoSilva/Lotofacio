@@ -42,7 +42,7 @@ def menor(lst):
 # Armazena as cincos dezenas menos repetidas
 five = ['']
 lst = list(tab.keys())
-for x in range(5):
+for x in range(10):
   if five[x] in lst:
     lst.remove(five[x])
   res = menor(lst)
