@@ -40,16 +40,22 @@ def menor(lst):
   return menor
   
 # Armazena as cincos dezenas menos repetidas
-five = ['']
+dez = ['']
 lst = list(tab.keys())
 for x in range(10):
-  if five[x] in lst:
-    lst.remove(five[x])
+  if dez[x] in lst:
+    lst.remove(dez[x])
   res = menor(lst)
-  five.append(res)
+  dez.append(res)
   
-five.remove('')
+dez.remove('')
+
+# Criar jogos
+game1 = []
+for i in tab.keys():
+  if not(i in dez):
+    game1.append(i)
 
 # Exibi o resultado ao usuario
-print(five)
-print(tab)
+print(dez)
+print(game1)
